@@ -1,0 +1,309 @@
+*{
+    font-family: 'Josefin Sans', 'Arial', sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.hero{
+    box-sizing: border-box;
+    padding: 230px;
+    height: 740px;
+    color: #fff;
+    text-align: center;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+}
+
+.hero-title{
+    margin-bottom: 10px;
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.hero-slogan{
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.hero-form{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 100px auto;
+    max-width: 500px;
+    height: 50px;
+}
+
+.input-search{
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 70%;
+    height: 50px;
+    color: #000;
+    border: none;
+}
+
+.btn-search{
+    margin-left: -3px;
+    width: 30%;
+    height: 50px;
+    font-size: 18px;
+    background-color: #754a19;
+    border: 1px solid #fff;
+    transition: 0.5s;
+}
+
+.btn-search:hover{
+    background-color: #754a19;
+}
+
+.hero-scroll{
+    font-size: 22px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.hero-scroll::after{
+    content: 'V';
+    display: block;
+}
+
+.hero-scroll:hover{
+    color: #92efff;
+}
+
+.menu{
+    display: flex;
+    position: sticky;
+    top: 0;
+    padding: 0px 60px;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #754a19;
+    background-size: cover;
+}
+
+.menu-title{
+    color: #fff;
+    font-size: 24px;
+    transition: 0.4s;
+}
+
+.menu-title:hover{
+    color: #92efff;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+}
+
+.menu-list a{
+    font-size: 22px;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.menu-list a:hover{
+    color: #92efff;
+}
+
+.choose{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 685px;
+    background-image: url(../img/why-choose-us-bg.png);
+    background-size: cover;
+}
+
+.choose-text{
+    width: 50%;
+    max-width: 400px;
+}
+
+.choose-title{
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.choose-description{
+    margin-bottom: 45px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.choose-link{
+    padding: 15px 40px;
+    color: #fff;
+    background: linear-gradient(45deg, #754a19 35%, #754a19 30%);
+}
+
+.choose-img{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 450px;
+}
+
+.choose-first{
+    align-self: flex-start;
+    margin-bottom: 20px;
+}
+
+.choose-second{
+    align-self: flex-end;
+}
+
+.country-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-weight: 300;
+    background-image: url(../img/description-spain-bg--first.png);
+    background-size: cover;
+}
+
+.country-spain{
+    box-sizing: border-box;
+    padding: 40px 20px 40px 20px;
+    width: 540px;
+    color: #fff;
+    background-color: rgba(51, 51, 51, 0.9);
+}
+
+.country-title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.country-slogan{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.country-description{
+    margin-bottom: 40px;
+}
+
+.country-link{
+    padding: 15px 40px;
+    color: #fff;
+    background: linear-gradient(45deg, #754a19 40%, #754a19 30%); 
+}
+
+.country-second{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    font-weight: 300;
+    background-image: url(../img/description-spain-bg--second.png);
+    background-size: cover;
+}
+
+.comment{
+    padding-top: 100px;
+    height: 731px;
+    color: #fff;
+    text-align: center;
+    background-image: url(../img/tourist-say-bg.png);
+    background-size: cover;
+}
+
+.comment-title{
+    margin-bottom: 120px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.comment-content-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 65%;
+    max-width: 1000px;
+    text-align: left;
+}
+
+.comment-text{
+    padding: 35px 30px;
+    font-weight: 300;
+    background-color: #333;
+}
+
+.comment-name{
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 400;
+}
+
+.quote{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    color: #754a19;
+}
+
+.footer{
+    padding: 40px 20px 25px 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #232323;
+}
+
+.footer-title{
+    display: block;
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.footer-slogan{
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+    width: 30%;
+    max-width: 150px;
+}
+
+.footer-icon:hover{
+    transform: scale(1.2);
+}
+
+@media (max-width: 1260px){
+    .comment-title{
+        margin-bottom: 70px;
+    }
+
+    .comment-content-wrapper{
+        flex-direction: column;
+        max-width: 600px;
+    }
+}
